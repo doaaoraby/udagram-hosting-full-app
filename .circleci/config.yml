@@ -45,7 +45,7 @@ jobs:
           command: |
             npm run api:build
   # deploy step will run only after manual approval
-  depleoy:
+  deploy:
     docker:
       - image: "cimg/base:stable"
       # more setup needed for aws, node, elastic beanstalk
